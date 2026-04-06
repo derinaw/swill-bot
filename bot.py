@@ -1,8 +1,8 @@
 import openai
 from telegram.ext import Application, MessageHandler, filters
 
-TELEGRAM_TOKEN = "ВАШ_ТОКЕН_ОТ_BOTFATHER"
-DEEPSEEK_API_KEY = "sk-ваш_ключ"
+TELEGRAM_TOKEN = "8770450139:AAEMM-O7qg0S3hsyhsVGtcFD-bARrOyOK3E"
+DEEPSEEK_API_KEY = "sk-cc1a4d1894a14be3abd7804bf24da707"
 
 openai.api_key = DEEPSEEK_API_KEY
 openai.base_url = "https://api.deepseek.com/v1"
