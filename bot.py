@@ -2,8 +2,8 @@ import os
 import openai
 from telegram.ext import Application, MessageHandler, filters, CommandHandler
 
-TELEGRAM_TOKEN = os.environ.get("8770450139:AAEMM-O7qg0S3hsyhsVGtcFD-bARrOyOK3E")
-DEEPSEEK_API_KEY = os.environ.get("sk-cc1a4d1894a14be3abd7804bf24da707")
+TELEGRAM_TOKEN = "8770450139:AAEMM-07qg0S3hsyhsVGtcFD-bARrOyOK3E"
+DEEPSEEK_API_KEY = "sk-cc1a4d1894a14be3abd7804bf24da707"
 
 if not TELEGRAM_TOKEN:
     print("Ошибка: TELEGRAM_TOKEN не задан")
